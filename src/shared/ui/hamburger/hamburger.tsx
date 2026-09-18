@@ -23,7 +23,11 @@ const Hamburger = ({
   const stickClass = cn(styles.stick, isActive && styles.active);
 
   return (
-    <button className={cn(styles.wrapper, className)} onClick={onClick}>
+    <button
+      className={cn(styles.wrapper, className)}
+      onClick={onClick}
+      aria-label="Открыть меню"
+    >
       <span className={stickClass}></span>
       <span className={stickClass}></span>
       <span className={stickClass}></span>

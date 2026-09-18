@@ -29,6 +29,7 @@ const IconLink = ({
       href={href}
       target="_blank"
       rel="noopener noreferrer"
+      aria-label={alt}
     >
       <Image
         className={cn(styles.image, imageClass)}

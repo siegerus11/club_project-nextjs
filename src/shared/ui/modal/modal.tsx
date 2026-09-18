@@ -43,6 +43,7 @@ const Modal = ({
         <button
           className={cn(styles.close, closeClass)}
           onClick={onClose}
+          aria-label="Закрыть модальное окно"
         ></button>
       </motion.div>
     </Overlay>
