@@ -1,5 +1,4 @@
 "use client";
-import { AnimatePresence } from "framer-motion";
 
 import { useState } from "react";
 import { rulesButtonText, rulesSectionDescription } from "../lib";
@@ -7,7 +6,7 @@ import RulesList from "./rules-list";
 
 const styles = {
   button: "underline decoration-skip-ink-none text-white",
-  description: "mt-[20px]",
+  description: "mt-[20px] lg:mt-[25px] 2xl:mt-[28px]",
 };
 
 const OpenRules = () => {

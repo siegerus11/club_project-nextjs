@@ -1,11 +1,13 @@
 "use client";
 
 import { AnimatePresence } from "framer-motion";
-import { PropsWithChildren } from "react";
+import dynamic from "next/dynamic";
 
+import { PropsWithChildren } from "react";
 import { useModal } from "@/shared/lib";
 import { Button } from "@/shared/ui";
-import JoinModal from "./join-modal";
+
+const JoinModal = dynamic(() => import("./join-modal"), { ssr: false });
 
 type JoinModalOpenProps = PropsWithChildren<{
   buttonClass?: string;
