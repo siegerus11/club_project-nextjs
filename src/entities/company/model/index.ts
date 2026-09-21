@@ -6,3 +6,4 @@ export * from "./opportunities";
 export * from "./partners";
 export * from "./bangles";
 export * from "./premium-capabilities";
+export * from "./rules";
