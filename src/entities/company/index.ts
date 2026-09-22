@@ -8,4 +8,5 @@ export { bangles, type Bangle } from "./model";
 export { premiumCapabilities, type Capability } from "./model";
 export { premiumSales, type PremiumSale } from "./model";
 export { Rules, RulesValues, type RuleText } from "./model";
+export { loyaltyLevels, type LoyaltyLevel } from "./model/";
 export type { SocialConfig, SocialPlatform } from "./model";
