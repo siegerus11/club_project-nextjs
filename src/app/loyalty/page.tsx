@@ -1,8 +1,9 @@
+import { Loyalties } from "@/widgets/loyalties";
 import { Container } from "@/shared/ui/container";
 const LoyalityPage = () => {
   return (
     <Container>
-      <div>LoyalityPage</div>
+      <Loyalties />
     </Container>
   );
 };
