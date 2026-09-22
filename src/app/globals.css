@@ -237,8 +237,9 @@ body {
 .container {
   @apply mx-auto w-full md:w-[648px] lg:w-[968px] xl:w-[1120px] 2xl:w-[1320px] 3xl:w-[1540px] py-0 px-[20px] md:px-0;
 }
+
 .container-tablet-override {
-  @apply mx-auto w-full md:w-[unset] md:ml-[60px] lg:mx-auto lg:w-[968px] xl:w-[1120px] 2xl:w-[1320px] 3xl:w-[1540px] py-0 px-[20px] md:px-0;
+  @apply mx-auto md:mx-[30px] lg:mx-auto md:relative lg:static md:left-1/2 lg:left-[unset] md:-translate-x-1/2 lg:translate-x-0 w-full md:w-[705px] lg:w-[968px] xl:w-[1120px] 2xl:w-[1320px] 3xl:w-[1540px] py-0 px-[20px] md:px-0;
 }
 
 .title {
